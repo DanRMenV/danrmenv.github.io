@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+.box{
+  border: 1px solid black;
+  height: auto;
+  margin: 20px;
+  background-color: silver;
+}
+
+.title {
+  width: 150px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  margin-top: -1px;
+  margin-right: -1px; 
+}
+
+.title1 {
+  background-color: darksalmon;
+}
+
+.title2 {
+  background-color: firebrick;
+  color: white;
+}
+
+.title3 {
+  background-color: burlywood;
+}
+
+.content {
+  clear: left;
+  margin: 5%;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
