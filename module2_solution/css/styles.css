@@ -11,6 +11,7 @@ h1 {
   border: 1px solid black;
   height: 190px;
   margin: 20px;
+  margin-top: 0px;
   background-color: silver;
   overflow: hidden;
 }
@@ -41,7 +42,7 @@ h1 {
 .content {
   clear: left;
   margin: 5%;
-
+  padding-top: 5%;
 }
 
 
